@@ -6,8 +6,8 @@ target 'Instagram' do
   use_frameworks!
 
   # Pods for Instagram
-	pod "Parse"
-	pod "AlamofireImage"
+  pod "Parse"
+  pod "AlamofireImage"
 
 
   target 'InstagramTests' do
@@ -20,3 +20,4 @@ target 'Instagram' do
   end
 
 end
+

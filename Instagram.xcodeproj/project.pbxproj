@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		200A020C2454F56A00DE978F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200A020B2454F56A00DE978F /* PostCell.swift */; };
 		201C49692454DD2C008A5C3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C49682454DD2C008A5C3A /* AppDelegate.swift */; };
 		201C496B2454DD2C008A5C3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201C496A2454DD2C008A5C3A /* SceneDelegate.swift */; };
 		201C49702454DD2C008A5C3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201C496E2454DD2C008A5C3A /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		1B550CC7195CF5B49CD2E272 /* Pods-Instagram-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		200A020B2454F56A00DE978F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		201C49652454DD2C008A5C3A /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		201C49682454DD2C008A5C3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		201C496A2454DD2C008A5C3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				201C49982454DFAF008A5C3A /* LoginViewController.swift */,
 				201C499A2454DFCA008A5C3A /* FeedViewController.swift */,
 				201C499C2454DFE8008A5C3A /* CameraViewController.swift */,
+				200A020B2454F56A00DE978F /* PostCell.swift */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				201C49692454DD2C008A5C3A /* AppDelegate.swift in Sources */,
 				201C496B2454DD2C008A5C3A /* SceneDelegate.swift in Sources */,
 				201C499D2454DFE8008A5C3A /* CameraViewController.swift in Sources */,
+				200A020C2454F56A00DE978F /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
