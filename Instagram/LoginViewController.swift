@@ -10,6 +10,7 @@
     import Parse
 
     class LoginViewController: UIViewController {
+        
 
         @IBOutlet weak var usernameField: UITextField!
         @IBOutlet weak var passwordField: UITextField!
@@ -18,7 +19,9 @@
 
             // Do any additional setup after loading the view.
         }
+        
         @IBAction func onSignIn(_ sender: Any) {
+            
             let username = usernameField.text!
             let password = passwordField.text!
             
@@ -27,7 +30,7 @@
                     if user != nil {
                         self.performSegue(withIdentifier: "loginSegue", sender: nil)
                     } else {
-                        print("Error: \(error?.localizedDescription)")
+                        print("Error: \(String(describing: error?.localizedDescription))")
                     }
                 
             }
@@ -42,7 +45,7 @@
                 if (success) {
                     self.performSegue(withIdentifier: "loginSegue", sender: nil)
                 } else {
-                    print("Error: \(error?.localizedDescription)")
+                    print("Error: \(String(describing: error?.localizedDescription))")
                 }
             }
         }

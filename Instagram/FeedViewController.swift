@@ -22,6 +22,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
            tableView.dataSource = self
            
        }
+
        
        override func viewDidAppear(_ animated: Bool) {
            super.viewDidAppear(animated)
@@ -53,7 +54,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         cell.usernameLabel.text = user.username
         
-        cell.captionLabel.text = post["caption"] as! String
+        cell.captionLabel.text = post["caption"] as? String
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
